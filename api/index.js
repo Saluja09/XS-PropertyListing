@@ -30,7 +30,7 @@ const __dirname = path.resolve();
 
 const app = express();
 
-app.use(cors(corsOptions));
+app.use(cors());
 
 app.use(express.json());
 //allow JSON data
