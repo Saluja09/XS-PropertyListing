@@ -84,7 +84,16 @@ Check out the live application here: [Real Estate App](https://realestate-1-4a9d
 ---
 
 ## Screenshots: 📸
-Add screenshots here to showcase the UI, user dashboard, listing details, and search functionalities.
+![IMG_6318](https://github.com/user-attachments/assets/4d216d0b-ee84-4a43-807e-7351d9c7d386)
+
+![IMG_6316](https://github.com/user-attachments/assets/dd69d967-c529-4d7f-b36f-17090cb3eaf8)
+
+![IMG_6319](https://github.com/user-attachments/assets/d9fccdef-1b0b-40b7-b8b6-479892b3b507)
+
+![IMG_6320](https://github.com/user-attachments/assets/98465d54-b4ad-474d-a5be-3af70055941d)
+
+![IMG_6317](https://github.com/user-attachments/assets/38dc051c-1973-44b6-8300-a0163d75370f)
+
 
 ---
 
