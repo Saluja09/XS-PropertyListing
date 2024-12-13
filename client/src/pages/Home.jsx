@@ -19,7 +19,7 @@ export default function Home() {
   useEffect(() => {
     const fetchOfferListings = async () => {
       try {
-        const res = await fetch('http://localhost:7000/api/listing/get?offer=true&limit=4');
+        const res = await fetch('https://realestate-gxcu.onrender.com');
         const data = await res.json();
         setOfferListings(data);
         fetchRecentlyViewed();
@@ -30,7 +30,7 @@ export default function Home() {
     };
     const fetchRecentlyViewed = async () => {
       try {
-        const res = await fetch(`http://localhost:7000/api/user/${currentUser._id}/recentlyViewed`);
+        const res = await fetch(`https://realestate-gxcu.onrender.com/${currentUser._id}/recentlyViewed`);
         const data = await res.json();
         setRecentlyViewed(data);
         console.log('recentlyViewed', recentlyViewed);
@@ -41,7 +41,7 @@ export default function Home() {
 
     const fetchRentListings = async () => {
       try {
-        const res = await fetch('http://localhost:7000/api/listing/get?type=rent&limit=4');
+        const res = await fetch('https://realestate-gxcu.onrender.com');
         const data = await res.json();
         setRentListings(data);
         fetchSaleListings();
@@ -52,7 +52,7 @@ export default function Home() {
 
     const fetchSaleListings = async () => {
       try {
-        const res = await fetch('http://localhost:7000/api/listing/get?type=sale&limit=4');
+        const res = await fetch('https://realestate-gxcu.onrender.com');
         const data = await res.json();
         setSaleListings(data);
       } catch (error) {
