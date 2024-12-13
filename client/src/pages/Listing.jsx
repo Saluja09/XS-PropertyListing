@@ -23,7 +23,7 @@ export default function Listing() {
   const updateView = async (listing) => {
     try {
       console.log('hello', listing);
-      const res = await fetch(`http://localhost:7000/api/user/${currentUser._id}/updateView`, {
+      const res = await fetch(`https://realestate-gxcu.onrender.com/${currentUser._id}/updateView`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -41,7 +41,7 @@ export default function Listing() {
     const fetchListing = async () => {
       try {
         setLoading(true);
-        const res = await fetch(`http://localhost:7000/api/listing/get/${params.listingId}`);
+        const res = await fetch(`https://realestate-gxcu.onrender.com/${params.listingId}`);
         const data = await res.json();
 
         if (data.success === false) {
