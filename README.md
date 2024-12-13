@@ -82,9 +82,7 @@ Delete Listings: `/api/listing/delete/:id` (DELETE)
 
 Get Single Listing: `/api/listing/get/:id` (GET)
 
-Get Listings: `/api/listing/get` (GET)
-
-Feel free to include any additional details or explanations as needed for your project.
+Get Listings: `/api/listing/get` (GET)\
 
 ## Screenshots📸
 
@@ -102,10 +100,4 @@ Feel free to include any additional details or explanations as needed for your p
 
 ![App Screenshot](https://github.com/D-4-DIBAKAR/MERN-Real-Estate/assets/71878062/20a909ff-8907-4ad0-be32-85c065d3c798)
 
-## 🚀 About Me
 
-### Hi 👋, I'M DIBAKAR PARIDA
-
-I'm Passionate Full Stack Developer crafting seamless frontend experiences and powerful backend solutions. Expert in React.js and Node.js
-# realestate
-# realestate
